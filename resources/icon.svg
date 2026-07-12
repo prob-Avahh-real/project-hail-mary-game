@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#44ccff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#44ccff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="400" r="300" fill="url(#glow)"/>
+
+  <!-- Rocky 身体 - 五边形 -->
+  <polygon points="512,280 700,420 640,620 384,620 324,420" fill="#8b7355" stroke="#5c4a32" stroke-width="6"/>
+
+  <!-- 岩石纹路 -->
+  <line x1="420" y1="360" x2="520" y2="420" stroke="#5c4a32" stroke-width="4" stroke-linecap="round"/>
+  <line x1="560" y1="380" x2="640" y2="460" stroke="#5c4a32" stroke-width="4" stroke-linecap="round"/>
+  <line x1="440" y1="500" x2="530" y2="560" stroke="#5c4a32" stroke-width="4" stroke-linecap="round"/>
+  <line x1="380" y1="440" x2="460" y2="510" stroke="#5c4a32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 圆顶 -->
+  <ellipse cx="512" cy="300" rx="100" ry="70" fill="#6b5b45"/>
+
+  <!-- 眼睛 -->
+  <circle cx="478" cy="320" r="18" fill="#000"/>
+  <circle cx="546" cy="320" r="18" fill="#000"/>
+  <circle cx="475" cy="316" r="11" fill="#44ccff"/>
+  <circle cx="543" cy="316" r="11" fill="#44ccff"/>
+  <circle cx="473" cy="313" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="541" cy="313" r="4" fill="#fff" opacity="0.8"/>
+
+  <!-- 五条腿 -->
+  <ellipse cx="400" cy="640" rx="25" ry="35" fill="#5c4a32" transform="rotate(-15,400,640)"/>
+  <ellipse cx="490" cy="660" rx="25" ry="35" fill="#5c4a32"/>
+  <ellipse cx="560" cy="645" rx="25" ry="35" fill="#5c4a32" transform="rotate(10,560,645)"/>
+  <ellipse cx="624" cy="610" rx="25" ry="35" fill="#5c4a32" transform="rotate(20,624,610)"/>
+  <ellipse cx="350" cy="580" rx="25" ry="35" fill="#5c4a32" transform="rotate(-30,350,580)"/>
+
+  <!-- 音符 (音乐语言) -->
+  <text x="512" y="850" text-anchor="middle" font-size="60" fill="#ffcc44" font-family="serif">♪ ♫ ♪</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0d0d2b"/>
+      <stop offset="100%" stop-color="#050510"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="30%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 太空背景 -->
+  <rect width="2732" height="2732" fill="url(#space)"/>
+  <circle cx="1366" cy="1200" r="600" fill="url(#glow)"/>
+
+  <!-- 星星 -->
+  <circle cx="300" cy="400" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="800" cy="200" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="2000" cy="350" r="2.5" fill="#fff" opacity="0.7"/>
+  <circle cx="2300" cy="600" r="2" fill="#fff" opacity="0.4"/>
+  <circle cx="500" cy="800" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="1800" cy="700" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="2500" cy="1000" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="400" cy="2000" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="2100" cy="2000" r="2.5" fill="#fff" opacity="0.4"/>
+  <circle cx="600" cy="2400" r="1.5" fill="#fff" opacity="0.6"/>
+
+  <!-- 飞船剪影 (底部) -->
+  <polygon points="1366,1600 1000,2400 1732,2400" fill="#1a1a3e" opacity="0.8"/>
+  <rect x="1266" y="2000" width="200" height="400" fill="#0d0d2b" opacity="0.9"/>
+
+  <!-- 标题 -->
+  <text x="1366" y="1100" text-anchor="middle" font-size="180" fill="#ffffff" font-family="sans-serif" font-weight="bold" letter-spacing="20">挽 救 计 划</text>
+  <text x="1366" y="1300" text-anchor="middle" font-size="80" fill="#00d4ff" font-family="sans-serif" letter-spacing="30">星 际 救 援</text>
+
+  <!-- Rocky -->
+  <polygon points="1366,1500 1480,1580 1440,1700 1292,1700 1252,1580" fill="#8b7355" stroke="#5c4a32" stroke-width="4"/>
+  <ellipse cx="1366" cy="1510" rx="55" ry="40" fill="#6b5b45"/>
+  <circle cx="1348" cy="1520" r="10" fill="#000"/>
+  <circle cx="1384" cy="1520" r="10" fill="#000"/>
+  <circle cx="1346" cy="1518" r="6" fill="#44ccff"/>
+  <circle cx="1382" cy="1518" r="6" fill="#44ccff"/>
+
+  <!-- 音符 -->
+  <text x="1366" y="1780" text-anchor="middle" font-size="50" fill="#ffcc44" font-family="serif">♪ ♫ ♪ ♫ ♪</text>
+
+  <!-- 底部文字 -->
+  <text x="1366" y="2600" text-anchor="middle" font-size="40" fill="#445566" font-family="sans-serif" letter-spacing="8">PROJECT HAIL MARY</text>
+</svg>

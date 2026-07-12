@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">挽救计划-星际救援</string>
+    <string name="title_activity_main">挽救计划-星际救援</string>
+    <string name="package_name">com.skat.projecthailmary</string>
+    <string name="custom_url_scheme">com.skat.projecthailmary</string>
+</resources>
